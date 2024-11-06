@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    line-height: 1.6;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background: #7c5e1d;
+    color: #331c02;
+    padding: 10px 0;
+    text-align: center;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #331c02;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(204, 171, 79);
+    color: #331c02;
+    
+    
+}
+
+footer {
+    background:#7c5e1d;
+    color: #331c02;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: calc(100% / 3 - 30px);
+    height: 300px;
+    
+    
+
+}
+.pinturas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    display: inline-block;
+    width: 32%;
+}
+p{
+    font-size: 25px;
+}
+
+.intro{
+    max-width: 970px;
+    margin: 20px auto;
+    padding: 15px auto;
+}
+
+
+
+
+section{
+    max-width: 970px;
+    margin: 20px auto;
+    padding: 15px auto;
+} 
+
+ a {
+    width: calc(100% / 3 - 30px);
+   
+   
+    
+    align-items: center;
+}
